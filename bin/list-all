@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo $(
+  curl --silent https://raw.githubusercontent.com/BeijingPM/perl5-versions/master/versions.txt
+)
